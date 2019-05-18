@@ -5,31 +5,31 @@
   --negro-cool: #272727;
   --gris: #747474;
   --amarillo-top: #FFE400;
-  --naranja-fuerte: #FF652F;
-  --verde-musgo: #14A76C;
+  --naranja-fuerte: rgb(250, 122, 75);
+  --verde-musgo: rgb(66, 184, 137);
+  --blanco-huevo: #F5F5F5;
 }
 
 /*
           HEADER
 */
 
-.navbar-nav{
-  background-color: bisque;
-}
 .header-area .main-menu,
 .header-area .main-menu .dropdown-menu {
-  background: var(--naranja-fuerte);
+  background: var(--blanco-huevo);
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
 }
-.header-area .main-menu .navbar {
+.header-area .main-menu .navbar{
   height: 70px;
   background-color: var(--verde-musgo);
 }
-.header-area .main-menu .navbar .nav-link {
-  font-size: 14px;
-  background-color: #FFE400;
+.header-area .main-menu .navbar .navbar-nav{
+  flex-direction: inherit;
+}
+.header-area .main-menu .navbar .nav-link{
+  font-size: 18px;
   padding: 8px;
 }
-.header-area .main-menu .navbar .nav-link:hover {
+.header-area .main-menu .navbar .nav-link:hover{
   font-weight: 600;
-}
+  }
