@@ -1,1 +1,1 @@
-Staring a new project that hopefully I'm going to finish
+A personal CV/Portfolio web using bootstrap.
