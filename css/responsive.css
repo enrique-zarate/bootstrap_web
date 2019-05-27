@@ -1,17 +1,20 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     .header-area .main-menu .navbar .nav-link{
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
-
+    .header-area .main-menu .navbar .nav-link{
+        font-size: 21px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/

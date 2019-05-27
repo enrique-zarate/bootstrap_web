@@ -30,8 +30,8 @@
   flex-direction: inherit;
 }
 .header-area .main-menu .navbar .nav-link{
-  font-size: 18px;
-  padding: 8px;
+  font-size: 16px;
+  padding: 5px;
 }
 .header-area .main-menu .navbar .nav-link:hover{
   font-weight: 600;
